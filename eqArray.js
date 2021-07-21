@@ -21,8 +21,9 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
+module.exports = eqArrays
 
-console.log(eqArrays([1, 2, 3], [1, 2, 3]));
+// console.log(eqArrays([1, 2, 3], [1, 2, 3]));
 
 // compare the two arrays
 // if array lengths are not equal, return false
