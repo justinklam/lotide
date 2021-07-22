@@ -17,7 +17,7 @@ const middle = function(firstArray) {
     return midArray;
   };
 
-
+module.exports = middle
 
 
 // Test cases
