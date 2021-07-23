@@ -10,8 +10,10 @@ const assertObjectsEqual = function(actual, expected) {
     return `Comparison Passed: ${inspect(actual)} ✅✅✅ ${inspect(expected)}`;
   };
 
-const objA = {Hands: "Yes"};
-const objB = {Hands: "No"};
-console.log(assertObjectsEqual(objA, objB));
+// const objA = {Hands: "Yes"};
+// const objB = {Hands: "No"};
+// console.log(assertObjectsEqual(objA, objB));
+
+module.exports = assertObjectsEqual
 
 // console.log(`Example label: ${(actual)}`);
