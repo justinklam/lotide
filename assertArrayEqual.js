@@ -1,3 +1,6 @@
+const eqArrays = require("./eqArrays");
+
+// FUNCTION IMPLEMENTATION
 const assertArraysEqual = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return `Comparison Failed: ${arr1} ❌❌❌ ${arr2}`;
@@ -12,4 +15,4 @@ const assertArraysEqual = function(arr1, arr2) {
 
 module.exports = assertArraysEqual
 
-// console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]));
+// eqArrays(assertArraysEqual([1, 2, 3], [1, 2, 3]));
