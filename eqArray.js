@@ -1,14 +1,6 @@
-// FUNCTION IMPLEMENTATION for assertEqual
-// const assertEqual = function(actual, expected) {
-//  if (actual === expected) {
-//    return `Assertion Passed: ${actual} === ${expected}`;
-//  } else return `Assertion Failed: ${actual} === ${expected}`;
-// };
+const assertEqual = require("./assertEqual");
 
-// TEST CODE
-// console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
-// console.log(assertEqual(1, 1));
-
+// FUNCTION IMPLEMENTATION
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
