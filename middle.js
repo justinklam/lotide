@@ -1,5 +1,4 @@
-const eqArrays = require("./eqArray")
-//
+const eqArrays = require("./eqArrays")
 const assertArraysEqual = require("./assertArrayEqual")
 
 const middle = function(firstArray) {
@@ -21,12 +20,12 @@ module.exports = middle
 
 
 // Test cases
-console.log(middle([1])) // => []
-console.log(middle([1, 2])) // => []
-console.log(middle([1, 2, 3])) // => [2]
-console.log(middle([1, 2, 3, 4, 5])) // => [3]
-console.log(middle([1, 2, 3, 4])) // => [2, 3]
-console.log(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
+// console.log(middle([1])) // => []
+// console.log(middle([1, 2])) // => []
+// console.log(middle([1, 2, 3])) // => [2]
+// console.log(middle([1, 2, 3, 4, 5])) // => [3]
+// console.log(middle([1, 2, 3, 4])) // => [2, 3]
+// console.log(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
 
 // take in an array
 // count the .length of the array, return the middle/average number
