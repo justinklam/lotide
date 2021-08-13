@@ -1,0 +1,25 @@
+{
+  "name": "@justinl/lotide",
+  "version": "1.0.0",
+  "description": "Clone of lodash called lotide - educational purposes",
+  "main": "assertArrayEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinklam/lotide.git"
+  },
+  "author": {
+    "name": "Justin Lam",
+    "url": "https://github.com/justinklam"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinklam/lotide/issues"
+  },
+  "homepage": "https://github.com/justinklam/lotide#readme"
+}
