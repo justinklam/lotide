@@ -14,13 +14,3 @@ const letterPositions = function(sentence) {
 };
 
 module.exports = letterPositions
-
-// console.log(letterPositions("Hello"));
-// console.log(assertArraysEqual(letterPositions("hello").e, 1));
-
-
-// take in a sentence as a string
-// loop through the string
-// identify letters in the string, if it does not exist, create a new array
-// push results into the array
-// return array

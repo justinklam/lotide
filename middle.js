@@ -17,8 +17,3 @@ const middle = function(firstArray) {
   };
 
 module.exports = middle
-
-// NOTES
-// take in an array
-// count the .length of the array, return the middle/average number
-// return the middle value

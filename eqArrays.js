@@ -14,7 +14,3 @@ const eqArrays = function(arr1, arr2) {
 };
 
 module.exports = eqArrays
-
-// compare the two arrays
-// if array lengths are not equal, return false
-// if array lengths are equal, compare indexes to see if value is same
