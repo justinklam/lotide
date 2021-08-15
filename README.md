@@ -35,6 +35,7 @@ The following functions are currently implemented:
 * `eqObjects(object1, object2)`: checks to see if two objects are equal
 * `findKey(object, callback)`: takes in object, and callback condition. if object contains callback condition, return key
 * `findKeyByValue(obj, val)`: takes in an object and a key, loops through object looking for the key
+* `flatten(arr)`: takes in an array of nested arrays, return new array containing all elements contained in nested arrays
 * `head(array)`: takes in array, returns first value in the array
 * `letterPositions(sentence)`: takes in a string, returns object with letter positions
 * `map(array, callback)`: takes in array and callback function, returns array after modification of callback function
